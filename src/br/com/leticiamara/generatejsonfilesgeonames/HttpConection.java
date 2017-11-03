@@ -20,7 +20,6 @@ public class HttpConection {
 			responseData =  getStringFromInputStream(request.getInputStream());
 			System.out.println("Http Respose Data: " + responseData);
 		} catch (IOException ioe) {
-			// TODO Auto-generated catch block
 			ioe.printStackTrace();
 		} 
 		return responseData;
